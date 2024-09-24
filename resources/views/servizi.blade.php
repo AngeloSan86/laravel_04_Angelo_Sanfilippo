@@ -17,14 +17,14 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/">Home</a>
+      <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="{{route('home')}}">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/chi-siamo">Chi Siamo?</a>
+          <a class="nav-link" href="{{route('about')}}">Chi Siamo?</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/articoli">Articoli</a>
+          <a class="nav-link" href="{{route('services')}}">I nostri servizi</a>
         </li>
       </ul>
     </div>
@@ -37,7 +37,7 @@
 
             <div class="col-12">
 
-                <h1 class="text-center">Articoli</h1>
+                <h1 class="text-center">I nostri servizi</h1>
 
             </div>
 
